@@ -12,7 +12,7 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
+  color: #99b898;
   border: 1px solid #64a19d;
 }
 
@@ -72,15 +72,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #99b898;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #99b898;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #99b898;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #99b898;
   }
 }
 
@@ -90,19 +90,19 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
-  background-position: center;
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.4) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/mastbg3.jpg");
+  background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+  font-family: 'Raleway';
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: rgba(255, 255, 255, 0.7);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -146,20 +146,20 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #99b898;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #587557;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #587557;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #99b898 !important;
 }
 
 .about-section {
@@ -168,7 +168,7 @@
 }
 
 .about-section p {
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
 }
 
 .projects-section {
@@ -179,10 +179,31 @@
   padding: 2rem;
 }
 
+.topimg {
+	height: 33px;
+	width: auto;
+	padding-right: 1rem;
+}
+
+.profile {
+	height:350px;
+	width: auto;
+	border-radius: 50%;
+	margin-left:0;
+	padding-left: 0;
+}
+
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #99b898;
+  }
+}
+
+@media (min-width: 992px) {
+  .projects-section .featured-text2 {
+    padding: 0 0 0 2rem;
+    border-right: 0.5rem solid #99b898;
   }
 }
 
@@ -196,7 +217,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #99b898;
     border-width: .25rem;
     width: 30%;
   }
@@ -228,7 +249,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #99b898;
 }
 
 .contact-section .card h4 {
@@ -239,7 +260,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #99b898;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -272,7 +293,7 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #99b898;
 }
 
 a:focus, a:hover {
@@ -289,9 +310,9 @@ a:focus, a:hover {
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #99b898 !important;
 }
 
 footer {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
