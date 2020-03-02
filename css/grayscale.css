@@ -185,6 +185,14 @@
 	padding-right: 1rem;
 }
 
+.profile {
+	height:350px;
+	width: auto;
+	border-radius: 50%;
+	margin-left:0;
+	padding-left: 0;
+}
+
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
