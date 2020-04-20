@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css"
+    "\\css",
+    "\\img"
   ],
-  "SelectedNode": "\\scad.html",
+  "SelectedNode": "\\css\\grayscale.css",
   "PreviewInSolutionExplorer": false
 }
