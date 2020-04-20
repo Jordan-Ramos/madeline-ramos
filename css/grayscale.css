@@ -22,7 +22,6 @@
 
 #mainNav .navbar-brand {
   color: #161616;
-  font-weight: 700;
   padding: .9rem 0;
 }
 
@@ -74,7 +73,7 @@
   #mainNav.navbar-shrink .nav-link:hover {
     color: #99b898;
   }
-  #mainNav.navbar-shrink .nav-link:active {
+  #mainNav.navbar-shrink .nav-link:active{
     color: #99b898;
   }
   #mainNav.navbar-shrink .nav-link.active {
@@ -83,6 +82,40 @@
     border-bottom: 0.25rem solid #99b898;
   }
 }
+
+  #mainNav2 {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: #fff;
+  }
+  #mainNav2 .navbar-toggler {
+  font-size: 80%;
+  padding: 0.75rem;
+  color: #99b898;
+  border: 1px solid #64a19d;
+ }
+  #mainNav2 .navbar-brand {
+    color: #161616;
+  }
+  #mainNav2 .nav-link {
+    color: #161616;
+    padding: 1.5rem 1.5rem 1.25rem;
+    border-bottom: 0.25rem solid transparent;
+  }
+  #mainNav2 .nav-link:hover {
+    color: #99b898;
+  }
+  #mainNav2 .nav-link:active{
+    color: #99b898;
+  }
+  #mainNav2 .nav-link.active {
+    color: #99b898;
+    outline: none;
+    border-bottom: 0.25rem solid #99b898;
+  }
+ 
+
 
 .masthead {
   position: relative;
